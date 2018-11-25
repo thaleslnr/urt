@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/malutrom
+    destination: /var/www/html/urt
     #source: codedeploy/zz_malutrom.conf
     #destination: /etc/httpd/conf.d/
 hooks:
