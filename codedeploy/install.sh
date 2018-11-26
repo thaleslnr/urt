@@ -1,4 +1,4 @@
 cp /var/www/html/urt/codedeploy/zz_urt.conf /etc/nginx/sites-available/
-ls -s /etc/nginx/sites-available/ /etc/nginx/sites-enabled/
+ls -s /etc/nginx/sites-available/zz_urt.conf /etc/nginx/sites-enabled/zz_urt.conf
 service nginx restart
 chmod -R 777 /var/www
